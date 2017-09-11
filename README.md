@@ -47,7 +47,7 @@ $ sudo apt-get install libmraa-dev
 # 3. Building and Running:
 
 ```shell
-$ git clone https://github.com/96boards/projects.git
+$ git clone https://github.com/96boards-projects/magic8.git
 $ cd projects
 $ cd magic8
 $ make
