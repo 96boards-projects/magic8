@@ -1,5 +1,5 @@
 /*
- * MAGIC 8 BALL
+ * Title: Magic 8 Ball demo using 96Boards CE
  * Author: Radhika Paralkar
  * Copyright (c) 2017 Linaro Ltd.
  * All rights reserved.

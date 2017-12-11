@@ -6,7 +6,7 @@ TARGETS := magic8
 all: $(TARGETS)
 
 magic8:
-	@$(CC) $(CFLAGS) magic8.cpp -o magic8 $(LDFLAGS)
+	@$(CC) $(CFLAGS) src/magic8.cpp -o magic8 $(LDFLAGS)
 
 clean:
-	rm -f $(TARGETS)
+	@rm -f $(TARGETS)
