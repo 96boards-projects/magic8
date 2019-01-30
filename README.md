@@ -1,3 +1,55 @@
+---
+# Front Matter
+# Title of your project used for the breadcrumb title and meta title.
+title:  Magic 8 Ball
+
+# Permalink your project will reside under on the 96boards.org website.
+# separate your title's words with dashes for SEO purposes.
+permalink: /projects/magic8/
+author: 96Boards
+
+# Add a description of your project
+description: The Digital Hourglass project implements a count up timer which takes in user input for the time to be measured and prints a character on the display at certain intervals till the time is up. The project goes through some of the basic concepts like connecting the Sensors Mezzanine board with the DragonBoard, interfacing an LCD with the board and installing the necessary libraries.
+
+# Add the names of your images which are stored in the sub folders here.
+# The first image is always used in the table at /projects/
+# This section is used to add a social media share image to your project.
+# Place the image you'd like to use when sharing on social media in the /assets/images/projects/
+# folder and adjust the following YAML accordingly.
+# High Res 1920 x 1080
+# regenerated on site build
+image: 
+    path: /assets/images/projects/placeholder.png
+#    list:
+#        - thumb.png
+#        - share.png
+#social:
+#  name: 96Boards
+#  links:
+#    - https://twitter.com/96boards
+#    - https://www.facebook.com/96Boards/
+#    - https://www.linkedin.com/company/96boards/
+#    - https://plus.google.com/+96Boards
+#    - https://github.com/96boards
+project:
+    # Difficulty level for your project <Beginner, Intermediate, Experienced>
+    #difficulty_level:
+    # - Beginner
+    # Boards that you have used in this project. For a full list of boards see 
+    # this file in the 96boards/website repo - _data/boards.yml
+    boards_used: 
+        - dragonboard410c
+        - sensors-mezzanine
+    # Verticals are catagories that your project belongs to. For a full list of verticals see 
+    # this file in the 96boards/website repo - _data/verticles.yml
+    verticals:
+        - Maker
+#Optional tags for your projects: meta-key words
+tags:
+- dragonboard410c
+- sensors-mezzanine
+---
+
 # Magic 8 Ball
 The Magic 8 Ball application displays messages on the LCD when the touch sensor module is tapped.
 There are 20 statements out of which any one can appear randomly at each tap on the sensor. So ask away!
